@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'EnnVisions';
+  src: local('EnnVisions'),
+    url('./assets/font-family/EnnVisions.otf') format('truetype')
+}
+
+@font-face {
+  font-family: 'EnnVisionsMedium';
+  src: local('EnnVisionsMedium'),
+    url('./assets/font-family/EnnVisions\ Medium.otf') format('truetype')
+}
+
+body {
+  margin: 0;
+  font-family: 'EnnVisions'
+}
+
+.medium {
+  font-family: 'EnnVisionsMedium';
+}
