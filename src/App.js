@@ -9,7 +9,7 @@ import NewStoryCard from './components/card/new-story-card';
 import CardsGroup from './components/card-group/card-group';
 import MessageBox from './components/message-box/message-box';
 
-function App() { 
+function App() {
 
   return (
     <div className="App">
@@ -21,12 +21,12 @@ function App() {
       <Row>
         <Col span={5}></Col>
         <Col span={7}>
-          <Row gutter={20}>
+          <Row gutter={0}>
             <Col>
               <NewStoryCard />
             </Col>
             <CardsGroup />
-          <MessageBox />
+            <MessageBox />
           </Row>
         </Col>
         <Col span={5} >
@@ -35,15 +35,7 @@ function App() {
 
         </Col>
       </Row>
-      <br />
-      <br />
-      {/* <Row>
-        <Col span={5}>
 
-        </Col>
-        <Col span={11}>
-        </Col>
-      </Row> */}
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Col, Row } from 'antd';
 import cardImage1 from '../../assets/icons/dp.png'
 import styled from 'styled-components';
 import { navData } from './navData';

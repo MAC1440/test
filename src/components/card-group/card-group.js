@@ -15,7 +15,8 @@ font-family: 'EnnVisionsMedium';
 border-radius:5px;
 `
 const Container = styled.div`
-width:400px;
+width:390px;
+margin-left:10px;
 overflow-x:auto;
 display:flex;
 gap:15px;

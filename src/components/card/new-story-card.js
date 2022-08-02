@@ -33,7 +33,7 @@ const NewStoryCard = () => {
     <Container>
       <Card >
         <img alt="example"
-          src={cardImage1} width='100px' />
+          src={cardImage1} width='100px' style={{ borderRadius: '5px' }} />
         <CardTitleContainer>
           <CardTitle> CREATE STORY</CardTitle>
           <AddButton src={addbutton} />
